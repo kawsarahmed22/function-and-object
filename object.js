@@ -11,4 +11,7 @@ const accessAge2 = person['age']
 console.log(accessAge2);
 const properties = Object.keys(person);
 console.log(properties); 
+
 //[ 'firstName', 'lastName', 'age', 'eyeColor' ]
+const propertiesValue = Object.values(person);
+console.log(propertiesValue);
